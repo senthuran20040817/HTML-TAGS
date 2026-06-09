@@ -54,7 +54,7 @@
 <hr>
     <!-- Subscript and Superscript -->
      <h2>H<sub>2</sub>O</h2>
-     <h2>25<sup>th</sup>of November</h2>
+     <h2>25<sup>th</sup> of November</h2>
 <hr>
     <!-- Progress tag -->
      <progress value="80" max="100">70%</progress><br>
@@ -62,6 +62,9 @@
      <progress value="50" max="100">70%</progress><br>
 <hr>
      <!-- form tags -->
+      <fieldset>
+        <legend>Registration Form</legend>
+     
       <form>
         <label for="name">NAME:</label>
         <input type="text" id="Name" placeholder="Enter your name" name="name"><br><br>
@@ -72,10 +75,24 @@
 
         <label for="color">Choose your color:</label>
         <input type="color" id="color" name="color"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="ca">Caneda</option>
+            <option value="in">India</option>
+            <option value="sl">Srilanka</option>
+        </select><br><br>
+
+        <label for="check" id="check">I agree to the term of conditions</label>
+        <input type="checkbox" id="check" name="check"><br><br>
         
         <input type="submit" value="submit">
 
-      </form>
+        </form>
+        </fieldset>
 <hr>
 </body>
 
